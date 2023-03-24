@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+    <button id="fortuneButton">Get a fortune</button>
+    <button id="allFortunes">Get all fortunes</button>
+    <form>
+      <label for="newFortune">New Fortune:</label>
+      <input name="newFortune" id="newFortuneMsg">
+      <button id="newFortuneBtn">Add Fortune</button>
+    </form>
+    <form id="updateForm">
+      <label for="updateFortuneMsg">Change a Fortune:</label>
+      <input name="updateFortuneMsg" id="updateFortuneMsg">
+      <button id="updateFortuneBtn">Change fortune</button>
+    </form>
+    <button id="deleteFortuneBtn">Delete a fortune</button>
+    <section id="section"></section>
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+    
+  </body>
+</html>
